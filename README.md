@@ -1,12 +1,24 @@
 # A modern backup solution for Laravel apps
 
-[![Latest Stable Version](https://poser.pugx.org/spatie/laravel-backup/v/stable?format=flat-square)](https://packagist.org/packages/spatie/laravel-backup)
+[![Latest Stable Version](https://poser.pugx.org/imannms/laravel-backup-mod/v/stable?format=flat-square)](https://packagist.org/packages/imannms/laravel-backup-mod)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/spatie/laravel-backup/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-backup)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-backup.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-backup)
-[![StyleCI](https://styleci.io/repos/30915528/shield)](https://styleci.io/repos/30915528)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-backup.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-backup)
+[![Build Status](https://img.shields.io/travis/imannms/laravel-backup-mod/master.svg?style=flat-square)](https://travis-ci.org/imannms/laravel-backup-mod)
+[![Quality Score](https://img.shields.io/scrutinizer/g/imannms/laravel-backup-mod.svg?style=flat-square)](https://scrutinizer-ci.com/g/imannms/laravel-backup-mod)
+[![Total Downloads](https://img.shields.io/packagist/dt/imannms/laravel-backup-mod.svg?style=flat-square)](https://packagist.org/packages/imannms/laravel-backup-mod)
 
+Laravel Backup v5 Mod. Support for PHP 7.0 and Laravel 5.5.
+This package is forked from [https://github.com/spatie/laravel-backup](https://github.com/spatie/laravel-backup).
+
+Install Laravel Backup v5 Mod:
+``` bash
+composer require imannms/laravel-backup-mod
+```
+
+You'll find full documentation on https://docs.spatie.be/laravel-backup/v5.
+
+===
+
+## Introduction
 This Laravel package [creates a backup of your application](https://docs.spatie.be/laravel-backup/v5/taking-backups/overview). The backup is a zipfile that contains all files in the directories you specify along with a dump of your database. The backup can be stored on [any of the filesystems you have configured in Laravel 5](http://laravel.com/docs/filesystem).
 
 Feeling paranoid about backups? No problem! You can backup your application to multiple filesystems at once.
@@ -22,7 +34,7 @@ To avoid using excessive disk space, the package can also [clean up old backups]
 
 Spatie is a web design agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
 
-## Installation and usage
+## Usage
 
 This package requires PHP 7 and Laravel 5.5 or higher. You'll find installation instructions and full documentation on https://docs.spatie.be/laravel-backup/v5.
 

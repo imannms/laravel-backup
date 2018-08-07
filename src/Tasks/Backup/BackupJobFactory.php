@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Backup;
+namespace Imannms\Backup\Tasks\Backup;
 
 use Illuminate\Support\Collection;
-use Spatie\Backup\BackupDestination\BackupDestinationFactory;
+use Imannms\Backup\BackupDestination\BackupDestinationFactory;
 
 class BackupJobFactory
 {

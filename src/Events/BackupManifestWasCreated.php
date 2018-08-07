@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Backup\Events;
+namespace Imannms\Backup\Events;
 
-use Spatie\Backup\Tasks\Backup\Manifest;
+use Imannms\Backup\Tasks\Backup\Manifest;
 
 class BackupManifestWasCreated
 {

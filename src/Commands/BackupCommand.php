@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Backup\Commands;
+namespace Imannms\Backup\Commands;
 
 use Exception;
-use Spatie\Backup\Events\BackupHasFailed;
-use Spatie\Backup\Exceptions\InvalidCommand;
-use Spatie\Backup\Tasks\Backup\BackupJobFactory;
+use Imannms\Backup\Events\BackupHasFailed;
+use Imannms\Backup\Exceptions\InvalidCommand;
+use Imannms\Backup\Tasks\Backup\BackupJobFactory;
 
 class BackupCommand extends BaseCommand
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Backup\Events;
+namespace Imannms\Backup\Events;
 
-use Spatie\Backup\BackupDestination\BackupDestination;
+use Imannms\Backup\BackupDestination\BackupDestination;
 
 class CleanupWasSuccessful
 {

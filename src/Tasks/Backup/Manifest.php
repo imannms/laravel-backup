@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Backup;
+namespace Imannms\Backup\Tasks\Backup;
 
 use Countable;
 use SplFileObject;

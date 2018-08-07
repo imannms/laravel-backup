@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Cleanup;
+namespace Imannms\Backup\Tasks\Cleanup;
 
 use Exception;
-use Spatie\Backup\Helpers\Format;
+use Imannms\Backup\Helpers\Format;
 use Illuminate\Support\Collection;
-use Spatie\Backup\Events\CleanupHasFailed;
-use Spatie\Backup\Events\CleanupWasSuccessful;
-use Spatie\Backup\BackupDestination\BackupDestination;
+use Imannms\Backup\Events\CleanupHasFailed;
+use Imannms\Backup\Events\CleanupWasSuccessful;
+use Imannms\Backup\BackupDestination\BackupDestination;
 
 class CleanupJob
 {

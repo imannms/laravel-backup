@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Backup\Commands;
+namespace Imannms\Backup\Commands;
 
 use Exception;
-use Spatie\Backup\Events\CleanupHasFailed;
-use Spatie\Backup\Tasks\Cleanup\CleanupJob;
-use Spatie\Backup\BackupDestination\BackupDestinationFactory;
-use Spatie\Backup\Tasks\Cleanup\CleanupStrategy;
+use Imannms\Backup\Events\CleanupHasFailed;
+use Imannms\Backup\Tasks\Cleanup\CleanupJob;
+use Imannms\Backup\BackupDestination\BackupDestinationFactory;
+use Imannms\Backup\Tasks\Cleanup\CleanupStrategy;
 
 class CleanupCommand extends BaseCommand
 {

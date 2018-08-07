@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Backup\Commands;
+namespace Imannms\Backup\Commands;
 
-use Spatie\Backup\Helpers\Format;
+use Imannms\Backup\Helpers\Format;
 use Illuminate\Support\Collection;
-use Spatie\Backup\Tasks\Monitor\BackupDestinationStatus;
-use Spatie\Backup\Tasks\Monitor\BackupDestinationStatusFactory;
+use Imannms\Backup\Tasks\Monitor\BackupDestinationStatus;
+use Imannms\Backup\Tasks\Monitor\BackupDestinationStatusFactory;
 
 class ListCommand extends BaseCommand
 {

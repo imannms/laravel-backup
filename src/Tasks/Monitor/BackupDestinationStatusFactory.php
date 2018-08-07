@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Monitor;
+namespace Imannms\Backup\Tasks\Monitor;
 
 use Illuminate\Support\Collection;
-use Spatie\Backup\BackupDestination\BackupDestination;
+use Imannms\Backup\BackupDestination\BackupDestination;
 
 class BackupDestinationStatusFactory
 {

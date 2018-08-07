@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\Backup;
+namespace Imannms\Backup;
 
 use Illuminate\Support\ServiceProvider;
-use Spatie\Backup\Commands\ListCommand;
-use Spatie\Backup\Helpers\ConsoleOutput;
-use Spatie\Backup\Commands\BackupCommand;
-use Spatie\Backup\Commands\CleanupCommand;
-use Spatie\Backup\Commands\MonitorCommand;
-use Spatie\Backup\Notifications\EventHandler;
-use Spatie\Backup\Tasks\Cleanup\CleanupStrategy;
-use Spatie\Backup\Tasks\Cleanup\Strategies\DefaultStrategy;
+use Imannms\Backup\Commands\ListCommand;
+use Imannms\Backup\Helpers\ConsoleOutput;
+use Imannms\Backup\Commands\BackupCommand;
+use Imannms\Backup\Commands\CleanupCommand;
+use Imannms\Backup\Commands\MonitorCommand;
+use Imannms\Backup\Notifications\EventHandler;
+use Imannms\Backup\Tasks\Cleanup\CleanupStrategy;
+use Imannms\Backup\Tasks\Cleanup\Strategies\DefaultStrategy;
 
 class BackupServiceProvider extends ServiceProvider
 {

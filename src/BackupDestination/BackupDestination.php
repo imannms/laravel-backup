@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Backup\BackupDestination;
+namespace Imannms\Backup\BackupDestination;
 
 use Exception;
 use Carbon\Carbon;
 use Illuminate\Contracts\Filesystem\Factory;
 use Illuminate\Contracts\Filesystem\Filesystem;
-use Spatie\Backup\Exceptions\InvalidBackupDestination;
+use Imannms\Backup\Exceptions\InvalidBackupDestination;
 
 class BackupDestination
 {
@@ -135,12 +135,12 @@ class BackupDestination
         return $this->backups()->size();
     }
 
-    public function newestBackup(): ?Backup
+    public function newestBackup(): Backup
     {
         return $this->backups()->newest();
     }
 
-    public function oldestBackup(): ?Backup
+    public function oldestBackup(): Backup
     {
         return $this->backups()->oldest();
     }

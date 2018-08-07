@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Backup\Notifications\Notifications;
+namespace Imannms\Backup\Notifications\Notifications;
 
-use Spatie\Backup\Notifications\BaseNotification;
+use Imannms\Backup\Notifications\BaseNotification;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Messages\SlackMessage;
 use Illuminate\Notifications\Messages\SlackAttachment;
-use Spatie\Backup\Events\UnhealthyBackupWasFound as UnhealthyBackupWasFoundEvent;
+use Imannms\Backup\Events\UnhealthyBackupWasFound as UnhealthyBackupWasFoundEvent;
 
 class UnhealthyBackupWasFound extends BaseNotification
 {

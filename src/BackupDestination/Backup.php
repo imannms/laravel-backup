@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Backup\BackupDestination;
+namespace Imannms\Backup\BackupDestination;
 
 use Carbon\Carbon;
 use Illuminate\Contracts\Filesystem\Filesystem;

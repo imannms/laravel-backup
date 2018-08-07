@@ -1,6 +1,6 @@
 <?php
 
-use Spatie\Backup\Helpers\ConsoleOutput;
+use Imannms\Backup\Helpers\ConsoleOutput;
 
 function consoleOutput(): ConsoleOutput
 {

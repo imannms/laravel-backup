@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Backup\Events;
+namespace Imannms\Backup\Events;
 
-use Spatie\Backup\Tasks\Monitor\BackupDestinationStatus;
+use Imannms\Backup\Tasks\Monitor\BackupDestinationStatus;
 
 class HealthyBackupWasFound
 {

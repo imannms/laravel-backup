@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Backup\Helpers;
+namespace Imannms\Backup\Helpers;
 
 use Carbon\Carbon;
 

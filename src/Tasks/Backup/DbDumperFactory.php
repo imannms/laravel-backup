@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Backup;
+namespace Imannms\Backup\Tasks\Backup;
 
-use Spatie\DbDumper\DbDumper;
-use Spatie\DbDumper\Databases\MySql;
-use Spatie\DbDumper\Databases\Sqlite;
-use Spatie\DbDumper\Databases\MongoDb;
-use Spatie\DbDumper\Databases\PostgreSql;
-use Spatie\Backup\Exceptions\CannotCreateDbDumper;
+use Imannms\DbDumper\DbDumper;
+use Imannms\DbDumper\Databases\MySql;
+use Imannms\DbDumper\Databases\Sqlite;
+use Imannms\DbDumper\Databases\MongoDb;
+use Imannms\DbDumper\Databases\PostgreSql;
+use Imannms\Backup\Exceptions\CannotCreateDbDumper;
 
 class DbDumperFactory
 {

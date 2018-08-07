@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Monitor;
+namespace Imannms\Backup\Tasks\Monitor;
 
 use Exception;
 use Carbon\Carbon;
-use Spatie\Backup\Helpers\Format;
-use Spatie\Backup\BackupDestination\BackupDestination;
+use Imannms\Backup\Helpers\Format;
+use Imannms\Backup\BackupDestination\BackupDestination;
 
 class BackupDestinationStatus
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Backup\Events;
+namespace Imannms\Backup\Events;
 
 class BackupZipWasCreated
 {

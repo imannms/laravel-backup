@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Backup;
+namespace Imannms\Backup\Tasks\Backup;
 
 use ZipArchive;
-use Spatie\Backup\Helpers\Format;
+use Imannms\Backup\Helpers\Format;
 
 class Zip
 {

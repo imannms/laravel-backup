@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Backup\BackupDestination;
+namespace Imannms\Backup\BackupDestination;
 
-use Spatie\Backup\Helpers\File;
+use Imannms\Backup\Helpers\File;
 use Illuminate\Support\Collection;
 use Illuminate\Contracts\Filesystem\Filesystem;
 
@@ -11,7 +11,7 @@ class BackupCollection extends Collection
     /** @var null|int */
     protected $sizeCache = null;
 
-    public static function createFromFiles(?FileSystem $disk, array $files): self
+    public static function createFromFiles(FileSystem $disk, array $files): self
     {
         return (new static($files))
             ->filter(function ($path) use ($disk) {
@@ -26,12 +26,12 @@ class BackupCollection extends Collection
             ->values();
     }
 
-    public function newest(): ?Backup
+    public function newest(): Backup
     {
         return $this->first();
     }
 
-    public function oldest(): ?Backup
+    public function oldest(): Backup
     {
         return $this
             ->filter->exists()

@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Backup\Notifications;
+namespace Imannms\Backup\Notifications;
 
-use Spatie\Backup\Helpers\Format;
+use Imannms\Backup\Helpers\Format;
 use Illuminate\Support\Collection;
 use Illuminate\Notifications\Notification;
-use Spatie\Backup\BackupDestination\BackupDestination;
+use Imannms\Backup\BackupDestination\BackupDestination;
 
 abstract class BaseNotification extends Notification
 {
@@ -54,7 +54,7 @@ abstract class BaseNotification extends Notification
         ])->filter();
     }
 
-    public function backupDestination(): ?BackupDestination
+    public function backupDestination(): BackupDestination
     {
         if (isset($this->event->backupDestination)) {
             return $this->event->backupDestination;

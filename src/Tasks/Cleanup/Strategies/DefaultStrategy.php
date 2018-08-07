@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Cleanup\Strategies;
+namespace Imannms\Backup\Tasks\Cleanup\Strategies;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Spatie\Backup\Tasks\Cleanup\Period;
-use Spatie\Backup\BackupDestination\Backup;
-use Spatie\Backup\Tasks\Cleanup\CleanupStrategy;
-use Spatie\Backup\BackupDestination\BackupCollection;
+use Imannms\Backup\Tasks\Cleanup\Period;
+use Imannms\Backup\BackupDestination\Backup;
+use Imannms\Backup\Tasks\Cleanup\CleanupStrategy;
+use Imannms\Backup\BackupDestination\BackupCollection;
 
 class DefaultStrategy extends CleanupStrategy
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Backup\Tasks\Cleanup;
+namespace Imannms\Backup\Tasks\Cleanup;
 
 use Illuminate\Contracts\Config\Repository;
-use Spatie\Backup\BackupDestination\BackupCollection;
+use Imannms\Backup\BackupDestination\BackupCollection;
 
 abstract class CleanupStrategy
 {
