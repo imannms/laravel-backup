@@ -1,13 +1,15 @@
 {
-    "name": "spatie/laravel-backup",
-    "description": "A Laravel 5 package to backup your application",
+    "name": "imannms/laravel-backup-mod",
+    "description": "A Laravel 5 package to backup your application. (This is mod version).",
     "keywords": [
         "spatie",
         "backup",
         "database",
-        "laravel-backup"
+        "laravel-backup",
+        "laravel-backup-mod",
+        "mod"
     ],
-    "homepage": "https://github.com/spatie/laravel-backup",
+    "homepage": "https://github.com/imannms/laravel-backup-mod",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.0",
         "illuminate/console": "~5.5.0|~5.6.0",
         "illuminate/contracts": "~5.5.0|~5.6.0",
         "illuminate/events": "~5.5.0|~5.6.0",
@@ -37,7 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Backup\\": "src"
+            "Imannms\\Backup\\": "src"
         },
         "files": [
             "src/Helpers/functions.php"
@@ -45,7 +47,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Backup\\Test\\": "tests"
+            "Imannms\\Backup\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -60,7 +62,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Backup\\BackupServiceProvider"
+                "Imannms\\Backup\\BackupServiceProvider"
             ]
         }
     }
