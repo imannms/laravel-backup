@@ -7,6 +7,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/imannms/laravel-backup-mod.svg?style=flat-square)](https://packagist.org/packages/imannms/laravel-backup-mod)
 
 Laravel Backup v5 Mod. Support for PHP 7.0 and Laravel 5.5.
+
 This package is forked from [https://github.com/spatie/laravel-backup](https://github.com/spatie/laravel-backup).
 
 Install Laravel Backup v5 Mod:
@@ -15,8 +16,6 @@ composer require imannms/laravel-backup-mod
 ```
 
 You'll find full documentation on https://docs.spatie.be/laravel-backup/v5.
-
-===
 
 ## Introduction
 This Laravel package [creates a backup of your application](https://docs.spatie.be/laravel-backup/v5/taking-backups/overview). The backup is a zipfile that contains all files in the directories you specify along with a dump of your database. The backup can be stored on [any of the filesystems you have configured in Laravel 5](http://laravel.com/docs/filesystem).
